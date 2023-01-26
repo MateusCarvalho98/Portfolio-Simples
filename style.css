@@ -1,0 +1,210 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans';
+}
+
+body {
+    background-color: #302F3D;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #837E9F;
+}
+
+a:visited {
+    color: #837E9F;
+}
+  /* mouse over */
+a:hover {
+      color: white;
+}
+/* link selecionado */
+a:active {
+      color: black;
+}
+
+.content-main {
+    margin: 40px 40px;
+}
+
+.content-main .menu-esquerda {
+    margin: 40px 40px;
+    color: #837E9F;
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+
+/***************** PERFIL COM FOTO ****************/
+.content-main #foto {
+    padding: 0px 20px 40px 20px;
+}
+
+.content-main .menu-esquerda .minha-foto {
+
+    width: 128px;
+    height: 128px;
+    border: 2px solid #00FF00;
+    border-radius: 200px;
+    margin: 30px ;
+}
+
+
+.content-main .menu-esquerda h3 {
+    color: #837E9F;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28.91px;
+}
+
+
+.content-main .menu-esquerda h5 {
+    color: #837E9F;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.34px;
+}
+
+.content-main #redes-sociais ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+}  
+
+.content-main #redes-sociais li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 2em;
+    list-style-type: none;
+}   
+
+.content-main #redes-sociais a{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}   	
+
+
+/***************** TECNOLOGIAS ****************/
+.content-main #tecnologias {
+        padding: 10px 8px 30px 30px;
+}
+.content-main #tecnologias h1{
+    padding: 30px 210px 10px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    Line-height: 25.14px;
+}
+
+.content-main #tecnologias ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.content-main #tecnologias li{
+   background: #CB92B1;
+   color: black;
+   border-radius: 30px;
+   width: 90px;
+   height: 30px;
+   padding: 12px 6px;
+   /* padding: 10px 15px 10px 10px ; */
+   margin: 5px 0px;
+   text-align: center;
+   font-weight: 700;
+   font-size: 10px;
+   line-height: 1em;
+   list-style-type: none;
+}
+
+
+/***************** EXPERIENCIAS ****************/
+
+.content-main #experiencias {
+    padding: 10px 00px 10px 0px;
+    /* border: solid 1px red ; */
+}
+
+
+.content-main #experiencias h1{
+    padding: 30px 175px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    Line-height: 25.14px;
+}
+
+.content-main #experiencias ul{
+    padding: 20px 80px 30px 60px;
+}
+.content-main #experiencias .Empresa {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.6px;
+ }
+ 
+
+
+.content-main #experiencias .periodo{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15.08px;
+ }
+
+ .content-main #experiencias .cargo{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+ }
+
+ 
+/***************** EDUCAÇÃO ****************/
+
+.content-main #educação {
+    padding: 10px 30px 10px 0px;
+    /* border: solid 1px red ; */
+}
+
+
+.content-main #educação h1{
+    padding: 30px 175px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    Line-height: 25.14px;
+}
+
+.content-main #educação ul{
+    padding: 20px 50px 30px 60px;
+}
+.content-main #educação .Empresa {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.6px;
+ }
+ 
+.content-main #educação .periodo{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15.08px;
+ }
+
+ .content-main #educação .cargo{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+ }
+
+ 
